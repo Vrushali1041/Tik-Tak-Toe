@@ -1,3 +1,18 @@
 .icon{
-    color: #000;
+    color: hwb(0 11% 88%);
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+}
+
+.grid .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eb4c4c;
+    font-size: 2rem;
 }
